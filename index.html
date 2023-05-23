@@ -17,14 +17,14 @@
         <div class="calculator">
             <h1 class="text-center">BMI Calculator</h1>
             <p class="display-5 fw-semibold">Height(cm):</p>
-            <input type="text" id="height" placeholder="0">
+            <input type="number" id="height" placeholder="0">
 
             <p class="display-5 fw-semibold">Weight(kg):</p>
-            <input type="text" id="weight" placeholder="0">
+            <input type="number" id="weight" placeholder="0">
             <button id="answer" class="btn btn-dark btn-lg my-3 ">Calculate</button>
             <button id="clear" class="btn btn-warning btn-lg" onclick="cls()">Reset</button>
             <h1 class="display-5 fw-semibold">Results:</h1>
-            <p class="display-5 fw-semibold bg-white" id="result"></p>
+            <p class="display-5 fw-semibold bg-white" id="result" readonly></p>
             <p id="statement" class="display-5 fw-semibold"></p>
         </div>
     </div>
