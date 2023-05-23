@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: slateblue;
+    height: 100vh;
+    position: relative;
+}
+input{
+    text-align: center;
+}
+.calculator{
+    border: 5px solid slategrey;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px;
+}
+/*.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}*/
